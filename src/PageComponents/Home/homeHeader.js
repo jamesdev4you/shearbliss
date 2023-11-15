@@ -54,7 +54,7 @@ export default function homeHeader(props) {
             lineHeight: { xs: '.7em', sm: '.7em', md: '1em', lg: '1em' },
           }}
         >
-          {title ? title : 'Hello'}
+          {title ? title : 'Shear Bliss'}
         </Typography>
         <Typography
           color='primary.main'
@@ -63,7 +63,7 @@ export default function homeHeader(props) {
             fontSize: { lg: '58px', md: '44px', sm: '44px', xs: '44px' },
           }}
         >
-          {desc ? desc : 'hello'}
+          {desc ? desc : 'Beauty Bar'}
         </Typography>
         {Button ? <Button /> : <MyServiceButton />}
       </Box>

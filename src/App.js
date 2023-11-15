@@ -24,14 +24,7 @@ const theme = createTheme({
 });
 
 function App() {
-
-  const defaultHeaderOp = {
-    title: 'Shear Bliss',
-    desc: 'Beauty Bar',
-    Button: MyServiceButton, // Replace with a default button component
-  };
-
-  const [headerOptions, setHeaderOptions] = useState([defaultHeaderOp]);
+  const [headerOptions, setHeaderOptions] = useState([]);
 
   useEffect(() => {
     client

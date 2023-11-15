@@ -6,8 +6,6 @@ import HomeMenu from './homeMenu.js';
 import NavBar from '../NavBar/navbar.js';
 import Footer from '../Footer/footer.js';
 import client from '../../sanityClient';
-import { MyServiceButton } from '../../../src/PageComponents/styledComponents.js';
-
 
 const query = '*[_type == "ourMenu"]';
 const query2 = '*[_type == "ourServices"]';
