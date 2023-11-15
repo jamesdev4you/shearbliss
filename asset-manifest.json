@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/shearbliss/static/css/main.3921834f.css",
+    "main.js": "/shearbliss/static/js/main.4b1defdd.js",
+    "static/js/726.bfbb248a.chunk.js": "/shearbliss/static/js/726.bfbb248a.chunk.js",
+    "static/media/woman2.jpg": "/shearbliss/static/media/woman2.444607334429938bd177.jpg",
+    "static/media/woman3.jpg": "/shearbliss/static/media/woman3.462bca39390ed95a53ac.jpg",
+    "static/media/headerhome.jpg": "/shearbliss/static/media/headerhome.4e641b9f59b02919feb1.jpg",
+    "static/media/woman5.jpg": "/shearbliss/static/media/woman5.77f242bd0da2c7dda540.jpg",
+    "static/media/woman4.jpg": "/shearbliss/static/media/woman4.785854c7ba37a31b03d2.jpg",
+    "static/media/headercontact.jpg": "/shearbliss/static/media/headercontact.0efb59b66e09fbb7198e.jpg",
+    "static/media/headerTeam.jpg": "/shearbliss/static/media/headerTeam.10eed0569956049c7232.jpg",
+    "static/media/woman.jpg": "/shearbliss/static/media/woman.bc130f63daeacfdc7b85.jpg",
+    "static/media/headerGallery.jpg": "/shearbliss/static/media/headerGallery.4547f6f9e44b22d05019.jpg",
+    "static/media/headerReviews.jpg": "/shearbliss/static/media/headerReviews.036303bae93c0692bb1f.jpg",
+    "static/media/birds.ttf": "/shearbliss/static/media/birds.f589e27af0d85b8a9bbc.ttf",
+    "static/media/mono.otf": "/shearbliss/static/media/mono.1431225e582a9b2522d0.otf",
+    "static/media/instagram.png": "/shearbliss/static/media/instagram.ed071077fc911932f21a.png",
+    "static/media/Logo.png": "/shearbliss/static/media/Logo.91d128a5ead1d5e4fa2b.png",
+    "static/media/facebook.png": "/shearbliss/static/media/facebook.65062c0e6678602327eb.png",
+    "static/media/twitter.png": "/shearbliss/static/media/twitter.3a655e8ba8a9efd824c5.png",
+    "static/media/nail-polish.svg": "/shearbliss/static/media/nail-polish.0d7237ce549b1e4ad6f6e6b7c0466d2b.svg",
+    "static/media/sheet-mask.svg": "/shearbliss/static/media/sheet-mask.6d28bc91ac34dee59fa70ae38442aebb.svg",
+    "static/media/beauty-treatment.svg": "/shearbliss/static/media/beauty-treatment.21d1e2683a2a20a234847f700d07177c.svg",
+    "static/media/manicure.svg": "/shearbliss/static/media/manicure.c6f101a55592a90325433de1cf2aa5a3.svg",
+    "static/media/women.svg": "/shearbliss/static/media/women.9c1bf78faf8f76c23edfd3307416d0f7.svg",
+    "static/media/hair.svg": "/shearbliss/static/media/hair.d77cbb668ddedd9a8787ddcbaae3cff5.svg",
+    "index.html": "/shearbliss/index.html",
+    "main.3921834f.css.map": "/shearbliss/static/css/main.3921834f.css.map",
+    "main.4b1defdd.js.map": "/shearbliss/static/js/main.4b1defdd.js.map",
+    "726.bfbb248a.chunk.js.map": "/shearbliss/static/js/726.bfbb248a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3921834f.css",
+    "static/js/main.4b1defdd.js"
+  ]
+}
