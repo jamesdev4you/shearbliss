@@ -3,6 +3,10 @@ import { Typography, Box } from '@mui/material';
 import '../../index.css';
 import imageUrlBuilder from '@sanity/image-url';
 import client from '../../sanityClient';
+import homeimage from '../assets/headerhome.jpg';
+import { MyServiceButton } from '../styledComponents.js';
+
+
 
 export default function homeHeader(props) {
   const { title, desc, Button, background } = props.headerOp || {};
@@ -22,7 +26,7 @@ export default function homeHeader(props) {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundImage: `url(${urlFor(background)})`,
+        backgroundImage: background ? `url(${urlFor(background)})` : `url(${homeimage})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'none',
         backgroundPosition: 'center',
@@ -50,7 +54,7 @@ export default function homeHeader(props) {
             lineHeight: { xs: '.7em', sm: '.7em', md: '1em', lg: '1em' },
           }}
         >
-          {title}
+          {title ? title : 'Hello'}
         </Typography>
         <Typography
           color='primary.main'
@@ -59,9 +63,9 @@ export default function homeHeader(props) {
             fontSize: { lg: '58px', md: '44px', sm: '44px', xs: '44px' },
           }}
         >
-          {desc}
+          {desc ? desc : 'hello'}
         </Typography>
-        <Button />
+        {Button ? <Button /> : <MyServiceButton />}
       </Box>
     </Box>
   );

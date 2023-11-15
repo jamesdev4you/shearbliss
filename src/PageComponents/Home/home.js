@@ -4,9 +4,10 @@ import HomeServices from '../Home/homeServices.js';
 import HomeStylists from './homeStylists.js';
 import HomeMenu from './homeMenu.js';
 import NavBar from '../NavBar/navbar.js';
-import homeimage from '../assets/headerhome.jpg';
 import Footer from '../Footer/footer.js';
 import client from '../../sanityClient';
+import { MyServiceButton } from '../../../src/PageComponents/styledComponents.js';
+
 
 const query = '*[_type == "ourMenu"]';
 const query2 = '*[_type == "ourServices"]';
@@ -15,6 +16,7 @@ export default function Home(props) {
   const { headerOp } = props;
   const [menuOptions, setMenuOptions] = useState([]);
   const [servicesOptions, setServicesOptions] = useState([]);
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -55,7 +57,7 @@ export default function Home(props) {
   return (
     <div>
       <NavBar />
-      {headerOp && <HomeHeader headerOp={props.headerOp} />}
+      <HomeHeader headerOp={props.headerOp} />
       <HomeServices servicesOp={servicesOptions} />
       <HomeStylists />
       <HomeMenu menuOp={menuOptions} />
