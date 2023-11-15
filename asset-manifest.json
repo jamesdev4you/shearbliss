@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/shearbliss/static/css/main.3921834f.css",
-    "main.js": "/shearbliss/static/js/main.f83e6d9b.js",
+    "main.js": "/shearbliss/static/js/main.29a31f07.js",
     "static/js/726.bfbb248a.chunk.js": "/shearbliss/static/js/726.bfbb248a.chunk.js",
     "static/media/woman2.jpg": "/shearbliss/static/media/woman2.444607334429938bd177.jpg",
     "static/media/woman3.jpg": "/shearbliss/static/media/woman3.462bca39390ed95a53ac.jpg",
-    "static/media/headerhome.jpg": "/shearbliss/static/media/headerhome.4e641b9f59b02919feb1.jpg",
     "static/media/woman5.jpg": "/shearbliss/static/media/woman5.77f242bd0da2c7dda540.jpg",
     "static/media/woman4.jpg": "/shearbliss/static/media/woman4.785854c7ba37a31b03d2.jpg",
     "static/media/headercontact.jpg": "/shearbliss/static/media/headercontact.0efb59b66e09fbb7198e.jpg",
     "static/media/headerTeam.jpg": "/shearbliss/static/media/headerTeam.10eed0569956049c7232.jpg",
     "static/media/woman.jpg": "/shearbliss/static/media/woman.bc130f63daeacfdc7b85.jpg",
+    "static/media/headerhome.jpg": "/shearbliss/static/media/headerhome.6afdf2c71d8c6866f2fa.jpg",
     "static/media/headerGallery.jpg": "/shearbliss/static/media/headerGallery.4547f6f9e44b22d05019.jpg",
     "static/media/headerReviews.jpg": "/shearbliss/static/media/headerReviews.036303bae93c0692bb1f.jpg",
     "static/media/birds.ttf": "/shearbliss/static/media/birds.f589e27af0d85b8a9bbc.ttf",
@@ -27,11 +27,11 @@
     "static/media/hair.svg": "/shearbliss/static/media/hair.d77cbb668ddedd9a8787ddcbaae3cff5.svg",
     "index.html": "/shearbliss/index.html",
     "main.3921834f.css.map": "/shearbliss/static/css/main.3921834f.css.map",
-    "main.f83e6d9b.js.map": "/shearbliss/static/js/main.f83e6d9b.js.map",
+    "main.29a31f07.js.map": "/shearbliss/static/js/main.29a31f07.js.map",
     "726.bfbb248a.chunk.js.map": "/shearbliss/static/js/726.bfbb248a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3921834f.css",
-    "static/js/main.f83e6d9b.js"
+    "static/js/main.29a31f07.js"
   ]
 }
