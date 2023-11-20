@@ -10,17 +10,25 @@ const squareVariants = {
 };
 
 var myAtoi = function (menuItems) {
-  let itemsArray = Object.keys(menuItems[0]);
-  let filteredItems = itemsArray.filter((item) => item.includes('item'));
+  // Loop through each menu item
+  for (const menuItem of menuItems) {
+    // Dynamically determine the keys for items and prices
+    let itemKeys = Object.keys(menuItem).filter(key => key.startsWith('item'));
+    let priceKeys = Object.keys(menuItem).filter(key => key.startsWith('price'));
 
-  console.log(filteredItems);
+    // For each item, add periods until the desired length is reached
+    itemKeys.forEach((itemKey, index) => {
+      const priceKey = priceKeys[index];
+      if (menuItem[itemKey] && menuItem[priceKey]) {
+        // Calculate the number of periods needed
+        let totalLength = menuItem[itemKey].length + menuItem[priceKey].toString().length;
+        let periodsNeeded = 22 - totalLength;
+        let periods = periodsNeeded > 0 ? '.'.repeat(periodsNeeded) : '';
 
-  for (const object of menuItems) {
-    for (let i = 0; i < filteredItems.length; i++) {
-      do {
-        object[filteredItems[i]] += '.';
-      } while (object[filteredItems[i]].length <= 15);
-    }
+        // Concatenate item, periods, and price
+        menuItem[itemKey] = `${menuItem[itemKey]}${periods}${menuItem[priceKey]}`;
+      }
+    });
   }
 
   return menuItems;
@@ -224,7 +232,7 @@ const HomeMenu = (props) => {
                   border: '3px solid #1B1E1E',
                   display: 'flex',
                   alignItems: 'center',
-                  justifyContent: 'center',
+                  justifyContent: 'start',
                   flexDirection: 'column',
                 }}
               >
@@ -235,16 +243,16 @@ const HomeMenu = (props) => {
                       sm: '60px',
                       md: '50px',
                       lg: '50px',
-                      xl: '70px',
+                      xl: '50px',
                     },
                     lineHeight: '1em',
-                    marginBottom: '25px',
                     fontFamily: 'Birds',
                     width: '90%',
                     paddingTop: '.2em',
                     borderBottom: '3px solid #1B1E1E',
                     textAlign: 'center',
                     color: '#1B1E1E',
+                    marginBottom: '1em',
                   }}
                 >
                   {title}
@@ -270,7 +278,7 @@ const HomeMenu = (props) => {
                   }}
                 >
                   {itemOne}
-                  {priceOne}
+                  
                 </Typography>
                 )}
                 {itemTwo && priceTwo && (
@@ -294,7 +302,7 @@ const HomeMenu = (props) => {
                   }}
                 >
                   {itemTwo}
-                  {priceTwo}
+                  
                 </Typography>
                 )}
                 {itemThree && priceThree && (
@@ -318,7 +326,7 @@ const HomeMenu = (props) => {
                   }}
                 >
                   {itemThree}
-                  {priceThree}
+                  
                 </Typography>
                 )}
                 {itemFour && priceFour && (
@@ -342,7 +350,7 @@ const HomeMenu = (props) => {
                   }}
                 >
                   {itemFour}
-                  {priceFour}
+                  
                 </Typography>
                 )}
                 {itemFive && priceFive && (
@@ -366,7 +374,7 @@ const HomeMenu = (props) => {
                   }}
                 >
                   {itemFive}
-                  {priceFive}
+                  
                 </Typography>
                 )}
                 {itemSix && priceSix && (
@@ -387,13 +395,16 @@ const HomeMenu = (props) => {
                     alignItems: 'center',
                     justifyContent: 'center',
                     width: '100%',
+                    
                   }}
                 >
                   {itemSix}
-                  {priceSix}
+                  
                 </Typography>
                 )}
+                <Box sx={{marginTop: 'auto', marginBottom: '15px'}}>
                 <MyServiceButton />
+                </Box>
               </Box>
             </Box>
           )
