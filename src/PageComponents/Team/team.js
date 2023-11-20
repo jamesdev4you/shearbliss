@@ -266,7 +266,7 @@ function urlFor(source) {
                       lg: '98px',
                       md: '64px',
                       sm: '64px',
-                      xs: '60px',
+                      xs: '30px',
                     },
                   }}
                 >
@@ -281,8 +281,9 @@ function urlFor(source) {
                       lg: '58px',
                       md: '54px',
                       sm: '44px',
-                      xs: '24px',
+                      xs: '20px',
                     },
+                    textAlign: 'center',
                   }}
                 >
                   {job}

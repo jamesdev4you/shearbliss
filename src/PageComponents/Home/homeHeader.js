@@ -50,7 +50,7 @@ export default function homeHeader(props) {
           color='primary.main'
           sx={{
             fontFamily: 'Birds',
-            fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '74px' },
+            fontSize: { lg: '90px', md: '56px', sm: '54px', xs: '64px' },
             lineHeight: { xs: '.7em', sm: '.7em', md: '1em', lg: '1em' },
           }}
         >

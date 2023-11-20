@@ -124,7 +124,7 @@ const HomeMenu = (props) => {
           textAlign: 'center',
           marginBottom: '15px',
           fontFamily: 'Birds',
-          fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '70px' },
+          fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '54px' },
         }}
         color='secondary.main'
       >
@@ -198,14 +198,14 @@ const HomeMenu = (props) => {
                 <Typography
                   sx={{
                     fontSize: {
-                      xs: '50px',
+                      xs: '40px',
                       sm: '60px',
-                      md: '90px',
-                      lg: '60px',
-                      xl: '80px',
+                      md: '50px',
+                      lg: '50px',
+                      xl: '70px',
                     },
                     lineHeight: '1em',
-                    marginBottom: '15px',
+                    marginBottom: '25px',
                     fontFamily: 'Birds',
                     width: '90%',
                     paddingTop: '.2em',

@@ -36,15 +36,15 @@ const HomeServices = (props) => {
 
   const servicesInformation = [
     {
-      logo: FacialIcon,
-      logoRight: FacialIconRight,
-      viewBox: '0 0 128 128',
-      viewBoxRight: '0 0 512 512',
-      title: 'Facials',
-      paragraphOne: props.servicesOp[0].facial.paragraphOne,
-      paragraphTwo: props.servicesOp[0].facial.paragraphTwo,
-      paragraphThree: props.servicesOp[0].facial.paragraphThree,
-      paragraphFour: props.servicesOp[0].facial.paragraphFour,
+      logo: StylistIcon,
+      logoRight: StylistIconRight,
+      viewBoxRight: '0 0 64 64',
+      viewBox: '0 0 512 512',
+      title: 'Hair Stylist',
+      paragraphOne: props.servicesOp[0].hair.paragraphOne,
+      paragraphTwo: props.servicesOp[0].hair.paragraphTwo,
+      paragraphThree: props.servicesOp[0].hair.paragraphThree,
+      paragraphFour: props.servicesOp[0].hair.paragraphFour,
     },
     {
       logo: ManicureIcon,
@@ -58,15 +58,15 @@ const HomeServices = (props) => {
       paragraphFour: props.servicesOp[0].manipedi.paragraphFour,
     },
     {
-      logo: StylistIcon,
-      logoRight: StylistIconRight,
-      viewBoxRight: '0 0 64 64',
-      viewBox: '0 0 512 512',
-      title: 'Hair Stylist',
-      paragraphOne: props.servicesOp[0].hair.paragraphOne,
-      paragraphTwo: props.servicesOp[0].hair.paragraphTwo,
-      paragraphThree: props.servicesOp[0].hair.paragraphThree,
-      paragraphFour: props.servicesOp[0].hair.paragraphFour,
+      logo: FacialIcon,
+      logoRight: FacialIconRight,
+      viewBox: '0 0 128 128',
+      viewBoxRight: '0 0 512 512',
+      title: 'Facials',
+      paragraphOne: props.servicesOp[0].facial.paragraphOne,
+      paragraphTwo: props.servicesOp[0].facial.paragraphTwo,
+      paragraphThree: props.servicesOp[0].facial.paragraphThree,
+      paragraphFour: props.servicesOp[0].facial.paragraphFour,
     },
   ];
 
@@ -92,7 +92,7 @@ const HomeServices = (props) => {
           textAlign: 'center',
           marginBottom: '15px',
           fontFamily: 'Birds',
-          fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '70px' },
+          fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '54px' },
         }}
       >
         Our Services
@@ -122,7 +122,7 @@ const HomeServices = (props) => {
                 height: {
                   xs: '30em',
                   sm: '30em',
-                  md: '32em',
+                  md: '35em',
                   lg: '35em',
                   xl: '40em',
                 },
@@ -150,11 +150,11 @@ const HomeServices = (props) => {
                   color: 'primary.main',
                   fontFamily: 'Birds',
                   fontSize: {
-                    xs: '40px',
+                    xs: '34px',
                     sm: '60px',
-                    md: '35px',
-                    lg: '40px',
-                    xl: '60px',
+                    md: '30px',
+                    lg: '35px',
+                    xl: '50px',
                   },
                 }}
               >
@@ -162,8 +162,8 @@ const HomeServices = (props) => {
                   component={logoRight}
                   viewBox={viewBoxRight}
                   sx={{
-                    height: { md: '30px', xl: '50px' },
-                    width: { md: '30px', xl: '50px' },
+                    height: { md: '20px', lg: '40px', xl: '50px' },
+                    width: { md: '20px', lg: '40px', xl: '50px' },
                     color: '#000000',
                     marginRight: '15px',
                     display: {

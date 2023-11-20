@@ -119,7 +119,7 @@ const gallery = (props) => {
             marginBottom: '15px',
             fontFamily: 'Birds',
             paddingTop: '.8em',
-            fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '70px' },
+            fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '54px'  },
           }}
           color='secondary.main'
         >

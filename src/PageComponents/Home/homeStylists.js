@@ -120,7 +120,7 @@ const HomeStylists = () => {
             textAlign: 'center',
             marginBottom: '15px',
             fontFamily: 'Birds',
-            fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '70px' },
+            fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '54px' },
           }}
         >
           Our Stylists

@@ -84,7 +84,7 @@ const Appointment = (props) => {
             textAlign: 'center',
             marginBottom: '15px',
             fontFamily: 'Birds',
-            fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '60px' },
+            fontSize: { lg: '98px', md: '64px', sm: '64px', xs: '50px' },
           }}
         >
           Get In Touch
@@ -96,7 +96,7 @@ const Appointment = (props) => {
             marginBottom: '3%',
             fontFamily: 'Birds',
             fontSize: {
-              xs: '30px',
+              xs: '16px',
               sm: '60px',
               md: '35px',
               lg: '40px',
