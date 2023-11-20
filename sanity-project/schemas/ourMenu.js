@@ -39,36 +39,6 @@ const ourMenu = defineType({
           type: 'string',
           title: 'Item Three Price',
         }),
-        defineField({
-          name: 'ItemFour',
-          type: 'string',
-          title: 'Item Four',
-        }),
-        defineField({
-          name: 'ItemFourPrice',
-          type: 'string',
-          title: 'Item Four Price',
-        }),
-        defineField({
-          name: 'ItemFive',
-          type: 'string',
-          title: 'Item Five',
-        }),
-        defineField({
-          name: 'ItemFivePrice',
-          type: 'string',
-          title: 'Item Five Price',
-        }),
-        defineField({
-          name: 'ItemSix',
-          type: 'string',
-          title: 'Item Six',
-        }),
-        defineField({
-          name: 'ItemSixPrice',
-          type: 'string',
-          title: 'Item Six Price',
-        }),
       ],
     }),
     defineField({
@@ -125,20 +95,46 @@ const ourMenu = defineType({
           type: 'string',
           title: 'Item Five Price',
         }),
-        defineField({
-          name: 'ItemSix',
-          type: 'string',
-          title: 'Item Six',
-        }),
-        defineField({
-          name: 'ItemSixPrice',
-          type: 'string',
-          title: 'Item Six Price',
-        }),
       ],
     }),
     defineField({
       name: 'ManiPedi',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'ItemOne',
+          type: 'string',
+          title: 'Item One',
+        }),
+        defineField({
+          name: 'ItemOnePrice',
+          type: 'string',
+          title: 'Item One Price',
+        }),
+        defineField({
+          name: 'ItemTwo',
+          type: 'string',
+          title: 'Item Two',
+        }),
+        defineField({
+          name: 'ItemTwoPrice',
+          type: 'string',
+          title: 'Item Two Price',
+        }),
+        defineField({
+          name: 'ItemThree',
+          type: 'string',
+          title: 'Item Three',
+        }),
+        defineField({
+          name: 'ItemThreePrice',
+          type: 'string',
+          title: 'Item Three Price',
+        }),
+      ],
+    }),
+    defineField({
+      name: 'Color',
       type: 'object',
       fields: [
         defineField({
@@ -181,25 +177,119 @@ const ourMenu = defineType({
           type: 'string',
           title: 'Item Four Price',
         }),
+      ],
+    }),
+    defineField({
+      name: 'CustomColor',
+      type: 'object',
+      fields: [
         defineField({
-          name: 'ItemFive',
+          name: 'ItemOne',
           type: 'string',
-          title: 'Item Five',
+          title: 'Item One',
         }),
         defineField({
-          name: 'ItemFivePrice',
+          name: 'ItemOnePrice',
           type: 'string',
-          title: 'Item Five Price',
+          title: 'Item One Price',
         }),
         defineField({
-          name: 'ItemSix',
+          name: 'ItemTwo',
           type: 'string',
-          title: 'Item Six',
+          title: 'Item Two',
         }),
         defineField({
-          name: 'ItemSixPrice',
+          name: 'ItemTwoPrice',
           type: 'string',
-          title: 'Item Six Price',
+          title: 'Item Two Price',
+        }),
+      ],
+    }),
+    defineField({
+      name: 'Wax',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'ItemOne',
+          type: 'string',
+          title: 'Item One',
+        }),
+        defineField({
+          name: 'ItemOnePrice',
+          type: 'string',
+          title: 'Item One Price',
+        }),
+        defineField({
+          name: 'ItemTwo',
+          type: 'string',
+          title: 'Item Two',
+        }),
+        defineField({
+          name: 'ItemTwoPrice',
+          type: 'string',
+          title: 'Item Two Price',
+        }),
+        defineField({
+          name: 'ItemThree',
+          type: 'string',
+          title: 'Item Three',
+        }),
+        defineField({
+          name: 'ItemThreePrice',
+          type: 'string',
+          title: 'Item Three Price',
+        }),
+        defineField({
+          name: 'ItemFour',
+          type: 'string',
+          title: 'Item Four',
+        }),
+        defineField({
+          name: 'ItemFourPrice',
+          type: 'string',
+          title: 'Item Four Price',
+        }),
+      ],
+    }),
+    defineField({
+      name: 'Textures',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'ItemOne',
+          type: 'string',
+          title: 'Item One',
+        }),
+        defineField({
+          name: 'ItemOnePrice',
+          type: 'string',
+          title: 'Item One Price',
+        }),
+        defineField({
+          name: 'ItemTwo',
+          type: 'string',
+          title: 'Item Two',
+        }),
+        defineField({
+          name: 'ItemTwoPrice',
+          type: 'string',
+          title: 'Item Two Price',
+        }),
+      ],
+    }),
+    defineField({
+      name: 'Extensions',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'ItemOne',
+          type: 'string',
+          title: 'Item One',
+        }),
+        defineField({
+          name: 'ItemOnePrice',
+          type: 'string',
+          title: 'Item One Price',
         }),
       ],
     }),

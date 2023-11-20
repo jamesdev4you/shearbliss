@@ -52,12 +52,6 @@ const HomeMenu = (props) => {
       itemTwo: props.menuOp[0].hair.ItemTwo,
       priceThree: props.menuOp[0].hair.ItemThreePrice,
       itemThree: props.menuOp[0].hair.ItemThree,
-      itemFour: props.menuOp[0].hair.ItemFour,
-      priceFour: props.menuOp[0].hair.ItemFourPrice,
-      itemFive: props.menuOp[0].hair.ItemFive,
-      priceFive: props.menuOp[0].hair.ItemFivePrice,
-      itemSix: props.menuOp[0].hair.ItemSix,
-      priceSix: props.menuOp[0].hair.ItemSixPrice,
     },
     {
       id: 2,
@@ -68,12 +62,6 @@ const HomeMenu = (props) => {
       itemTwo: props.menuOp[0].manipedi.ItemTwo,
       priceThree: props.menuOp[0].manipedi.ItemThreePrice,
       itemThree: props.menuOp[0].manipedi.ItemThree,
-      itemFour: props.menuOp[0].manipedi.ItemFour,
-      priceFour: props.menuOp[0].manipedi.ItemFourPrice,
-      itemFive: props.menuOp[0].manipedi.ItemFive,
-      priceFive: props.menuOp[0].manipedi.ItemFivePrice,
-      itemSix: props.menuOp[0].manipedi.ItemSix,
-      priceSix: props.menuOp[0].manipedi.ItemSixPrice,
     },
     {
       id: 3,
@@ -88,8 +76,52 @@ const HomeMenu = (props) => {
       priceFour: props.menuOp[0].facial.ItemFourPrice,
       itemFive: props.menuOp[0].facial.ItemFive,
       priceFive: props.menuOp[0].facial.ItemFivePrice,
-      itemSix: props.menuOp[0].facial.ItemSix,
-      priceSix: props.menuOp[0].facial.ItemSixPrice,
+    },
+    {
+      id: 4,
+      title: 'Color',
+      priceOne: props.menuOp[0].color.ItemOnePrice,
+      itemOne: props.menuOp[0].color.ItemOne,
+      priceTwo: props.menuOp[0].color.ItemTwoPrice,
+      itemTwo: props.menuOp[0].color.ItemTwo,
+      priceThree: props.menuOp[0].color.ItemThreePrice,
+      itemThree: props.menuOp[0].color.ItemThree,
+      itemFour: props.menuOp[0].color.ItemFour,
+      priceFour: props.menuOp[0].color.ItemFourPrice,
+    },
+    {
+      id: 5,
+      title: 'Custom Colors',
+      priceOne: props.menuOp[0].customcolor.ItemOnePrice,
+      itemOne: props.menuOp[0].customcolor.ItemOne,
+      priceTwo: props.menuOp[0].customcolor.ItemTwoPrice,
+      itemTwo: props.menuOp[0].customcolor.ItemTwo,
+    },
+    {
+      id: 6,
+      title: 'Wax',
+      priceOne: props.menuOp[0].wax.ItemOnePrice,
+      itemOne: props.menuOp[0].wax.ItemOne,
+      priceTwo: props.menuOp[0].wax.ItemTwoPrice,
+      itemTwo: props.menuOp[0].wax.ItemTwo,
+      priceThree: props.menuOp[0].wax.ItemThreePrice,
+      itemThree: props.menuOp[0].wax.ItemThree,
+      itemFour: props.menuOp[0].wax.ItemFour,
+      priceFour: props.menuOp[0].wax.ItemFourPrice,
+    },
+    {
+      id: 7,
+      title: 'Textures',
+      priceOne: props.menuOp[0].textures.ItemOnePrice,
+      itemOne: props.menuOp[0].textures.ItemOne,
+      priceTwo: props.menuOp[0].textures.ItemTwoPrice,
+      itemTwo: props.menuOp[0].textures.ItemTwo,
+    },
+    {
+      id: 8,
+      title: 'Extensions',
+      priceOne: props.menuOp[0].extensions.ItemOnePrice,
+      itemOne: props.menuOp[0].extensions.ItemOne,
     },
   ];
 
@@ -136,6 +168,7 @@ const HomeMenu = (props) => {
         variants={squareVariants}
         initial='hidden'
         ref={ref}
+        style={{height: 'auto', flexWrap: 'wrap', }}
       >
         {modifiedMenuItems.map(
           ({
@@ -216,6 +249,7 @@ const HomeMenu = (props) => {
                 >
                   {title}
                 </Typography>
+                {itemOne && priceOne && (
                 <Typography
                   sx={{
                     fontSize: {
@@ -238,6 +272,8 @@ const HomeMenu = (props) => {
                   {itemOne}
                   {priceOne}
                 </Typography>
+                )}
+                {itemTwo && priceTwo && (
                 <Typography
                   sx={{
                     fontSize: {
@@ -260,6 +296,8 @@ const HomeMenu = (props) => {
                   {itemTwo}
                   {priceTwo}
                 </Typography>
+                )}
+                {itemThree && priceThree && (
                 <Typography
                   sx={{
                     fontSize: {
@@ -282,6 +320,8 @@ const HomeMenu = (props) => {
                   {itemThree}
                   {priceThree}
                 </Typography>
+                )}
+                {itemFour && priceFour && (
                 <Typography
                   sx={{
                     fontSize: {
@@ -304,6 +344,8 @@ const HomeMenu = (props) => {
                   {itemFour}
                   {priceFour}
                 </Typography>
+                )}
+                {itemFive && priceFive && (
                 <Typography
                   sx={{
                     fontSize: {
@@ -326,6 +368,8 @@ const HomeMenu = (props) => {
                   {itemFive}
                   {priceFive}
                 </Typography>
+                )}
+                {itemSix && priceSix && (
                 <Typography
                   sx={{
                     fontSize: {
@@ -337,7 +381,7 @@ const HomeMenu = (props) => {
                     },
                     lineHeight: '1em',
                     fontFamily: 'Mono',
-                    marginBottom: '1em',
+                    marginBottom: '15px',
                     color: '#1B1E1E',
                     display: 'flex',
                     alignItems: 'center',
@@ -348,6 +392,7 @@ const HomeMenu = (props) => {
                   {itemSix}
                   {priceSix}
                 </Typography>
+                )}
                 <MyServiceButton />
               </Box>
             </Box>

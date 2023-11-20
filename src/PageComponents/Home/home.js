@@ -6,6 +6,7 @@ import HomeMenu from './homeMenu.js';
 import NavBar from '../NavBar/navbar.js';
 import Footer from '../Footer/footer.js';
 import client from '../../sanityClient';
+import { color } from 'framer-motion';
 
 const query = '*[_type == "ourMenu"]';
 const query2 = '*[_type == "ourServices"]';
@@ -31,6 +32,11 @@ export default function Home(props) {
             facial: item.Facial,
             manipedi: item.ManiPedi,
             hair: item.Hair,
+            color: item.Color,
+            customcolor: item.CustomColor,
+            wax: item.Wax,
+            textures: item.Textures,
+            extensions: item.Extensions,
           };
         });
         setMenuOptions(updatedMenuOptions);
