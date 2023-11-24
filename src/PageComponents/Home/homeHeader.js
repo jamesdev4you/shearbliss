@@ -65,7 +65,7 @@ export default function homeHeader(props) {
         >
           {desc ? desc : 'Beauty Bar'}
         </Typography>
-        {Button ? <Button /> : <MyServiceButton />}
+        {Button ? <Button /> : <></>}
       </Box>
     </Box>
   );

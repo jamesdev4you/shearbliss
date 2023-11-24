@@ -170,6 +170,17 @@ const HomeMenu = (props) => {
       >
         Our Menu
       </Typography>
+      <Typography
+        sx={{
+          textAlign: 'center',
+          marginBottom: '15px',
+          fontFamily: 'Birds',
+          fontSize: { lg: '38px', md: '24px', sm: '18px', xs: '18px' },
+        }}
+        color='secondary.main'
+      >
+        Prices may vary
+      </Typography>
       <motion.div
         className='homeMenuBox'
         animate={controls}

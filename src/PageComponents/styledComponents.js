@@ -1,4 +1,5 @@
 import Button from '@mui/material/Button';
+import { NavLink } from 'react-router-dom';
 
 const MyStyledButton = (props) => (
   <Button
@@ -17,8 +18,11 @@ const MyStyledButton = (props) => (
       },
       border: '2px solid #F5DE6D',
     }}
+    href='/appointment'
   >
+    
     Book Today!
+    
   </Button>
 );
 
@@ -40,6 +44,7 @@ const MyServiceButton = (props) => (
       },
       border: '2px solid #E4DCC0',
     }}
+    href='/appointment'
   >
     Schedule Today!
   </Button>
@@ -64,6 +69,7 @@ const MyTeamButton = (props) => (
       border: '2px solid #E4DCC0',
       marginTop: 'auto',
     }}
+    href='/appointment'
   >
     Schedule Today!
   </Button>
@@ -88,6 +94,7 @@ const MyTeamButtonDark = (props) => (
       border: '2px solid #1B1E1E',
       marginTop: 'auto',
     }}
+    href='/appointment'
   >
     Schedule Today!
   </Button>

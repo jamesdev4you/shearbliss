@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Home from './PageComponents/Home/home.js';
 import Gallery from './PageComponents/Gallery/gallery.js';
 import Appointment from '../src/PageComponents/Appointment/appointment.js';
-import Reviews from './PageComponents/Reviews/reviews.js';
 import Team from './PageComponents/Team/team.js';
 import NavBar from './PageComponents/NavBar/navbar.js';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -52,10 +51,6 @@ function App() {
           <Route
             path='/appointment'
             element={<Appointment headerOp={headerOptions[2]} />}
-          />
-          <Route
-            path='/reviews'
-            element={<Reviews headerOp={headerOptions[4]} />}
           />
           <Route path='/team' element={<Team headerOp={headerOptions[3]} />} />
           <Route
