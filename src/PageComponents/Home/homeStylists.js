@@ -198,7 +198,7 @@ const HomeStylists = () => {
                 }}
               >
                 <Typography
-                  variant='h4'
+                  variant='h5'
                   sx={{
                     color: hovered ? 'rgba(255,255,255,1)' : 'rgba(0,0,0,0)',
                     fontFamily: 'birds',

@@ -175,6 +175,7 @@ const HomeMenu = (props) => {
           textAlign: 'center',
           marginBottom: '15px',
           fontFamily: 'Birds',
+          lineHeight: '.1em',
           fontSize: { lg: '38px', md: '24px', sm: '18px', xs: '18px' },
         }}
         color='secondary.main'

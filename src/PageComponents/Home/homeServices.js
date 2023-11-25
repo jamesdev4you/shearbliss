@@ -123,7 +123,7 @@ const HomeServices = (props) => {
                   xs: '30em',
                   sm: '30em',
                   md: '35em',
-                  lg: '35em',
+                  lg: '36em',
                   xl: '40em',
                 },
                 width: {
