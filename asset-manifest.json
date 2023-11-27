@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shearbliss/static/css/main.3f74e883.css",
-    "main.js": "/shearbliss/static/js/main.4aaf370e.js",
+    "main.js": "/shearbliss/static/js/main.8d57c1c6.js",
     "static/js/726.bfbb248a.chunk.js": "/shearbliss/static/js/726.bfbb248a.chunk.js",
     "static/media/headerhome.jpg": "/shearbliss/static/media/headerhome.6afdf2c71d8c6866f2fa.jpg",
     "static/media/birds.ttf": "/shearbliss/static/media/birds.7e687123cd4528224ce5.ttf",
@@ -18,11 +18,11 @@
     "static/media/hair.svg": "/shearbliss/static/media/hair.ec5a91f42a76b118745f49f707a34dd1.svg",
     "index.html": "/shearbliss/index.html",
     "main.3f74e883.css.map": "/shearbliss/static/css/main.3f74e883.css.map",
-    "main.4aaf370e.js.map": "/shearbliss/static/js/main.4aaf370e.js.map",
+    "main.8d57c1c6.js.map": "/shearbliss/static/js/main.8d57c1c6.js.map",
     "726.bfbb248a.chunk.js.map": "/shearbliss/static/js/726.bfbb248a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f74e883.css",
-    "static/js/main.4aaf370e.js"
+    "static/js/main.8d57c1c6.js"
   ]
 }
