@@ -227,7 +227,7 @@ const Appointment = (props) => {
                   sm: 'column',
                   xs: 'column',
                 },
-                
+
                 borderBottom: {
                   xl: '1px solid #E4DCC0',
                   lg: '1px solid #E4DCC0',
@@ -235,7 +235,7 @@ const Appointment = (props) => {
                   sm: 'none',
                   xs: 'none',
                 },
-                alignItems: 'space-between'
+                alignItems: 'space-between',
               }}
             >
               <Box
@@ -276,17 +276,17 @@ const Appointment = (props) => {
                 </Typography>
               </Box>
               <Box
-sx={{
-  height: '170px',
-  width: '400px',
-  borderBottom: {
-    xl: 'none',
-    lg: 'none',
-    md: 'none',
-    sm: '1px solid #E4DCC0',
-    xs: '1px solid #E4DCC0',
-  },
-}}
+                sx={{
+                  height: '170px',
+                  width: '400px',
+                  borderBottom: {
+                    xl: 'none',
+                    lg: 'none',
+                    md: 'none',
+                    sm: '1px solid #E4DCC0',
+                    xs: '1px solid #E4DCC0',
+                  },
+                }}
               >
                 <Typography
                   sx={{
@@ -335,7 +335,7 @@ sx={{
                   gap: '5%',
                 }}
               >
-                <Link href='https://www.instagram.com/petersonedvania/'>
+                <Link href='https://www.facebook.com/profile.php?id=61553106995899'>
                   <Box
                     sx={{
                       height: {
@@ -360,7 +360,7 @@ sx={{
                     }}
                   ></Box>
                 </Link>
-                <Link href='https://www.instagram.com/petersonedvania/'>
+                <Link href='https://www.instagram.com/shearbliss_beautybar/'>
                   <Box
                     sx={{
                       height: {
@@ -385,7 +385,7 @@ sx={{
                     }}
                   ></Box>
                 </Link>
-                <Link href='https://www.instagram.com/petersonedvania/'>
+                <Link href='https://www.facebook.com/profile.php?id=61553106995899'>
                   <Box
                     sx={{
                       height: {
@@ -411,7 +411,7 @@ sx={{
                     src='#'
                   ></Box>
                 </Link>
-                <Link href='https://www.instagram.com/petersonedvania/'>
+                <Link href='https://www.facebook.com/profile.php?id=61553106995899'>
                   <Box
                     sx={{
                       height: {
