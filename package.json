@@ -1,9 +1,10 @@
 {
   "name": "shearbliss",
-  "homepage": "https://jamesdev4you.github.io/shearbliss/",
+  "homepage": "https://shearblisstampa.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.12",

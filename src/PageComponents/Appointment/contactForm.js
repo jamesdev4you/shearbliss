@@ -1,7 +1,34 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Typography, Grid, TextField, Button } from '@mui/material';
+import emailjs from "@emailjs/browser";
+
 
 export default function ContactForm() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_oypmg0v",
+        "template_vbht51v",
+        form.current,
+        "m7Yw4RVu5v3B2gkoH"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+
   return (
     <div
       style={{
@@ -24,6 +51,8 @@ export default function ContactForm() {
         style={{
           paddingTop: '5px',
         }}
+        ref={form}
+        onSubmit={sendEmail}
       >
         <Grid container spacing={2}>
           <Grid xs={12} item sx={{ marginRight: 'auto' }}>
