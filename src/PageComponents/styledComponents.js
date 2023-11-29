@@ -1,6 +1,7 @@
 import Button from '@mui/material/Button';
 import { NavLink } from 'react-router-dom';
 import '../index.css';
+import '../navlink.css';
 
 const MyStyledButton = (props) => (
   <Button
@@ -21,9 +22,10 @@ const MyStyledButton = (props) => (
       border: '2px solid #F5DE6D',
       fontFamily: 'Birds',
     }}
-    href='/appointment'
   >
-    Book Today!
+    <NavLink to='/appointment' className='nav_links'>
+      Book Today!
+    </NavLink>
   </Button>
 );
 
@@ -49,7 +51,9 @@ const MyServiceButton = (props) => (
     }}
     href='/appointment'
   >
-    Schedule Today!
+    <NavLink to='/appointment' className='nav_links'>
+      Schedule Today!
+    </NavLink>
   </Button>
 );
 
@@ -76,7 +80,9 @@ const MyTeamButton = (props) => (
     }}
     href='/appointment'
   >
-    Schedule Today!
+    <NavLink to='/appointment' className='nav_links'>
+      Schedule Today!
+    </NavLink>
   </Button>
 );
 
@@ -100,9 +106,10 @@ const MyTeamButtonDark = (props) => (
       fontFamily: 'Birds',
       borderRadius: '15px',
     }}
-    href='/appointment'
   >
-    Schedule Today!
+    <NavLink to='/appointment' className='nav_links'>
+      Schedule Today!
+    </NavLink>
   </Button>
 );
 

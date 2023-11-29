@@ -8,6 +8,16 @@ a.nav_link:hover {
   color: black;
 }
 
+.nav_links {
+  text-decoration: none;
+  color: #e4dcc0;
+}
+
+.nav_links:hover {
+  text-decoration: none;
+  color: #1b1e1e;
+}
+
 .menu_link {
   text-decoration: none;
   color: #1b1e1e;
