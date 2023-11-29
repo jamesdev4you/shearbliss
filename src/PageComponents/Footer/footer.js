@@ -99,12 +99,6 @@ const Footer = () => {
           </Typography>
           <Typography sx={{ fontFamily: 'Ubuntu' }}>
             {' '}
-            <NavLink to='/reviews' className='nav_link'>
-              Reviews
-            </NavLink>{' '}
-          </Typography>
-          <Typography sx={{ fontFamily: 'Ubuntu' }}>
-            {' '}
             <NavLink to='/team' className='nav_link'>
               Team
             </NavLink>{' '}
