@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/shearbliss/static/css/main.3f74e883.css",
-    "main.js": "/shearbliss/static/js/main.f1c3e3be.js",
-    "static/js/726.bfbb248a.chunk.js": "/shearbliss/static/js/726.bfbb248a.chunk.js",
-    "static/media/headerhome.jpg": "/shearbliss/static/media/headerhome.6afdf2c71d8c6866f2fa.jpg",
-    "static/media/birds.ttf": "/shearbliss/static/media/birds.7e687123cd4528224ce5.ttf",
-    "static/media/mono.otf": "/shearbliss/static/media/mono.1431225e582a9b2522d0.otf",
-    "static/media/instagram.png": "/shearbliss/static/media/instagram.ed071077fc911932f21a.png",
-    "static/media/Logo.png": "/shearbliss/static/media/Logo.91d128a5ead1d5e4fa2b.png",
-    "static/media/facebook.png": "/shearbliss/static/media/facebook.65062c0e6678602327eb.png",
-    "static/media/twitter.png": "/shearbliss/static/media/twitter.3a655e8ba8a9efd824c5.png",
-    "static/media/nail-polish.svg": "/shearbliss/static/media/nail-polish.0d7237ce549b1e4ad6f6e6b7c0466d2b.svg",
-    "static/media/sheet-mask.svg": "/shearbliss/static/media/sheet-mask.6d28bc91ac34dee59fa70ae38442aebb.svg",
-    "static/media/beauty-treatment.svg": "/shearbliss/static/media/beauty-treatment.21d1e2683a2a20a234847f700d07177c.svg",
-    "static/media/manicure.svg": "/shearbliss/static/media/manicure.c6f101a55592a90325433de1cf2aa5a3.svg",
-    "static/media/women.svg": "/shearbliss/static/media/women.9c1bf78faf8f76c23edfd3307416d0f7.svg",
-    "static/media/hair.svg": "/shearbliss/static/media/hair.ec5a91f42a76b118745f49f707a34dd1.svg",
-    "index.html": "/shearbliss/index.html",
-    "main.3f74e883.css.map": "/shearbliss/static/css/main.3f74e883.css.map",
-    "main.f1c3e3be.js.map": "/shearbliss/static/js/main.f1c3e3be.js.map",
-    "726.bfbb248a.chunk.js.map": "/shearbliss/static/js/726.bfbb248a.chunk.js.map"
+    "main.css": "/static/css/main.fb35e97c.css",
+    "main.js": "/static/js/main.060dd68d.js",
+    "static/js/726.bfbb248a.chunk.js": "/static/js/726.bfbb248a.chunk.js",
+    "static/media/headerhome.jpg": "/static/media/headerhome.6afdf2c71d8c6866f2fa.jpg",
+    "static/media/birds.ttf": "/static/media/birds.7e687123cd4528224ce5.ttf",
+    "static/media/mono.otf": "/static/media/mono.1431225e582a9b2522d0.otf",
+    "static/media/instagram.png": "/static/media/instagram.ed071077fc911932f21a.png",
+    "static/media/Logo.png": "/static/media/Logo.91d128a5ead1d5e4fa2b.png",
+    "static/media/facebook.png": "/static/media/facebook.65062c0e6678602327eb.png",
+    "static/media/twitter.png": "/static/media/twitter.3a655e8ba8a9efd824c5.png",
+    "static/media/nail-polish.svg": "/static/media/nail-polish.0d7237ce549b1e4ad6f6e6b7c0466d2b.svg",
+    "static/media/sheet-mask.svg": "/static/media/sheet-mask.6d28bc91ac34dee59fa70ae38442aebb.svg",
+    "static/media/beauty-treatment.svg": "/static/media/beauty-treatment.21d1e2683a2a20a234847f700d07177c.svg",
+    "static/media/manicure.svg": "/static/media/manicure.c6f101a55592a90325433de1cf2aa5a3.svg",
+    "static/media/women.svg": "/static/media/women.9c1bf78faf8f76c23edfd3307416d0f7.svg",
+    "static/media/hair.svg": "/static/media/hair.ec5a91f42a76b118745f49f707a34dd1.svg",
+    "index.html": "/index.html",
+    "main.fb35e97c.css.map": "/static/css/main.fb35e97c.css.map",
+    "main.060dd68d.js.map": "/static/js/main.060dd68d.js.map",
+    "726.bfbb248a.chunk.js.map": "/static/js/726.bfbb248a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f74e883.css",
-    "static/js/main.f1c3e3be.js"
+    "static/css/main.fb35e97c.css",
+    "static/js/main.060dd68d.js"
   ]
 }
