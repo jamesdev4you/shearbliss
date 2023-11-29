@@ -39,13 +39,13 @@ export default function NavBar(props) {
       <Divider sx={{ backgroundColor: '#1B1E1E' }} />
       <List sx={{ backgroundColor: '#E4DCC0' }}>
         {navItems.map((item) => (
-          <ListItem key={item.text} sx={{ margin: '15px 0px' }} disablePadding>
+          <ListItem key={item.text} sx={{ margin: '30px 0px' }} disablePadding>
             <NavLink
               style={{
                 textDecoration: 'none',
                 color: '#1B1E1E',
-                fontFamily: 'Ubuntu',
-                fontSize: '20px',
+                fontFamily: 'Birds',
+                fontSize: '24px',
                 margin: 'auto',
               }}
               to={item.href}

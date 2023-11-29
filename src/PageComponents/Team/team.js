@@ -61,7 +61,7 @@ const Team = (props) => {
       desc3: stylistOptions[0]?.descriptionThree,
       primaryColor: '#1B1E1E',
       backgroundColor: '#E4DCC0',
-      dabutton: <MyTeamButtonDark />,
+      dabutton: <MyTeamButton />,
       section: 'womanOne',
     },
     {
@@ -85,7 +85,7 @@ const Team = (props) => {
       desc3: stylistOptions[2]?.descriptionThree,
       primaryColor: '#1B1E1E',
       backgroundColor: '#E4DCC0',
-      dabutton: <MyTeamButtonDark />,
+      dabutton: <MyTeamButton />,
       section: 'womanThree',
     },
     {
@@ -258,7 +258,7 @@ const Team = (props) => {
                     color: primaryColor,
                     fontFamily: 'Birds',
                     fontSize: {
-                      lg: '98px',
+                      lg: '80px',
                       md: '64px',
                       sm: '64px',
                       xs: '30px',

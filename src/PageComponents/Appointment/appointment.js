@@ -97,10 +97,10 @@ const Appointment = (props) => {
             fontFamily: 'Birds',
             fontSize: {
               xs: '16px',
-              sm: '60px',
-              md: '35px',
-              lg: '40px',
-              xl: '60px',
+              sm: '20px',
+              md: '25px',
+              lg: '25px',
+              xl: '25px',
             },
             paddingLeft: {
               xs: '5px',
@@ -293,6 +293,13 @@ const Appointment = (props) => {
                     fontSize: '26px',
                     color: '#E4DCC0',
                     fontStyle: 'italic',
+                    paddingTop: {
+                      xs: '30px',
+                      sm: '0px',
+                      md: '0px',
+                      lg: '0px',
+                      xl: '0px',
+                    },
                   }}
                 >
                   Email

@@ -190,7 +190,7 @@ const HomeStylists = () => {
                   justifyContent: 'start',
                   padding: hovered ? '.5em' : '0em',
                   marginLeft: '25px',
-                  
+                  transition: '0.7s',
                   alignItems: 'center',
                   border: '3px solid #191C1C',
                   boxShadow:
@@ -202,6 +202,7 @@ const HomeStylists = () => {
                   sx={{
                     color: hovered ? 'rgba(255,255,255,1)' : 'rgba(0,0,0,0)',
                     fontFamily: 'birds',
+                    transition: '0.7s',
                   }}
                 >
                   {title}

@@ -1,5 +1,6 @@
 import Button from '@mui/material/Button';
 import { NavLink } from 'react-router-dom';
+import '../index.css';
 
 const MyStyledButton = (props) => (
   <Button
@@ -10,6 +11,7 @@ const MyStyledButton = (props) => (
       height: '30px',
       background: `linear-gradient(to bottom left, #5B5C50, #1B1E1E)`,
       color: '#F5DE6D',
+      borderRadius: '15px',
       '&:hover': {
         color: '#5B5C50',
         background: '#F5DE6D',
@@ -17,12 +19,11 @@ const MyStyledButton = (props) => (
         fontWeight: 'bold',
       },
       border: '2px solid #F5DE6D',
+      fontFamily: 'Birds',
     }}
     href='/appointment'
   >
-    
     Book Today!
-    
   </Button>
 );
 
@@ -32,10 +33,11 @@ const MyServiceButton = (props) => (
     sx={{
       paddingBottom: '5px',
       width: '200px',
-      height: '30px',
+      height: '35px',
       background: `primary.main`,
       color: 'secondary.main',
       fontWeight: 'bold',
+      borderRadius: '15px',
       '&:hover': {
         color: 'primary.main',
         background: '#E4DCC0',
@@ -43,6 +45,7 @@ const MyServiceButton = (props) => (
         fontWeight: 'bold',
       },
       border: '2px solid #E4DCC0',
+      fontFamily: 'Birds',
     }}
     href='/appointment'
   >
@@ -54,7 +57,7 @@ const MyTeamButton = (props) => (
   <Button
     variant='contained'
     sx={{
-      paddingBottom: '5px',
+      paddingBottom: '6px',
       width: '200px',
       height: '30px',
       background: `primary.main`,
@@ -68,6 +71,8 @@ const MyTeamButton = (props) => (
       },
       border: '2px solid #E4DCC0',
       marginTop: 'auto',
+      fontFamily: 'Birds',
+      borderRadius: '15px',
     }}
     href='/appointment'
   >
@@ -79,12 +84,11 @@ const MyTeamButtonDark = (props) => (
   <Button
     variant='contained'
     sx={{
-      paddingBottom: '5px',
+      paddingBottom: '6px',
       width: '200px',
       height: '30px',
       background: `#C2AD90`,
       color: '#1B1E1E',
-      fontWeight: 'bold',
       '&:hover': {
         color: '#C2AD90',
         background: '#1B1E1E',
@@ -93,6 +97,8 @@ const MyTeamButtonDark = (props) => (
       },
       border: '2px solid #1B1E1E',
       marginTop: 'auto',
+      fontFamily: 'Birds',
+      borderRadius: '15px',
     }}
     href='/appointment'
   >
