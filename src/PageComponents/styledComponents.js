@@ -106,4 +106,37 @@ const MyTeamButtonDark = (props) => (
   </Button>
 );
 
-export { MyStyledButton, MyServiceButton, MyTeamButton, MyTeamButtonDark };
+const MyShop = (props) => (
+  <Button
+    variant='contained'
+    sx={{
+      paddingBottom: '6px',
+      width: '200px',
+      height: '30px',
+      background: `primary.main`,
+      color: 'secondary.main',
+      fontWeight: 'bold',
+      '&:hover': {
+        color: 'primary.main',
+        background: '#E4DCC0',
+        border: '2px solid #1B1E1E',
+        fontWeight: 'bold',
+      },
+      border: '2px solid #E4DCC0',
+      marginTop: 'auto',
+      fontFamily: 'Birds',
+      borderRadius: '15px',
+    }}
+    href='https://shop.saloninteractive.com/store/ShearBlissBeautyBar'
+  >
+    Shop Now!
+  </Button>
+);
+
+export {
+  MyStyledButton,
+  MyServiceButton,
+  MyTeamButton,
+  MyTeamButtonDark,
+  MyShop,
+};

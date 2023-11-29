@@ -182,7 +182,7 @@ const HomeStylists = () => {
                       )})`,
                   backgroundSize: 'cover',
                   backgroundRepeat: 'none',
-                  backgroundPosition: 'bottom',
+                  backgroundPosition: 'center',
                   borderRadius: '20px',
                   cursor: 'pointer',
                   display: 'flex',

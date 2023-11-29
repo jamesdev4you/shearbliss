@@ -3,6 +3,7 @@ import { Box, Typography } from '@mui/material';
 import { MyServiceButton } from '../styledComponents.js';
 import { useAnimation, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { MyShop } from '../styledComponents.js';
 
 const squareVariants = {
   visible: { opacity: 1, transition: { duration: 1.5 } },
@@ -13,20 +14,27 @@ var myAtoi = function (menuItems) {
   // Loop through each menu item
   for (const menuItem of menuItems) {
     // Dynamically determine the keys for items and prices
-    let itemKeys = Object.keys(menuItem).filter(key => key.startsWith('item'));
-    let priceKeys = Object.keys(menuItem).filter(key => key.startsWith('price'));
+    let itemKeys = Object.keys(menuItem).filter((key) =>
+      key.startsWith('item')
+    );
+    let priceKeys = Object.keys(menuItem).filter((key) =>
+      key.startsWith('price')
+    );
 
     // For each item, add periods until the desired length is reached
     itemKeys.forEach((itemKey, index) => {
       const priceKey = priceKeys[index];
       if (menuItem[itemKey] && menuItem[priceKey]) {
         // Calculate the number of periods needed
-        let totalLength = menuItem[itemKey].length + menuItem[priceKey].toString().length;
+        let totalLength =
+          menuItem[itemKey].length + menuItem[priceKey].toString().length;
         let periodsNeeded = 22 - totalLength;
         let periods = periodsNeeded > 0 ? '.'.repeat(periodsNeeded) : '';
 
         // Concatenate item, periods, and price
-        menuItem[itemKey] = `${menuItem[itemKey]}${periods}${menuItem[priceKey]}`;
+        menuItem[
+          itemKey
+        ] = `${menuItem[itemKey]}${periods}${menuItem[priceKey]}`;
       }
     });
   }
@@ -173,7 +181,7 @@ const HomeMenu = (props) => {
       <Typography
         sx={{
           textAlign: 'center',
-          marginBottom: '15px',
+          marginBottom: '30px',
           fontFamily: 'Birds',
           lineHeight: '.1em',
           fontSize: { lg: '38px', md: '24px', sm: '18px', xs: '18px' },
@@ -182,13 +190,14 @@ const HomeMenu = (props) => {
       >
         Prices may vary
       </Typography>
+      <MyShop />
       <motion.div
         className='homeMenuBox'
         animate={controls}
         variants={squareVariants}
         initial='hidden'
         ref={ref}
-        style={{height: 'auto', flexWrap: 'wrap', }}
+        style={{ height: 'auto', flexWrap: 'wrap' }}
       >
         {modifiedMenuItems.map(
           ({
@@ -270,152 +279,145 @@ const HomeMenu = (props) => {
                   {title}
                 </Typography>
                 {itemOne && priceOne && (
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: '20px',
-                      sm: '32px',
-                      md: '34px',
-                      lg: '30px',
-                      xl: '34px',
-                    },
-                    lineHeight: '1em',
-                    fontFamily: 'Mono',
-                    marginBottom: '15px',
-                    color: '#1B1E1E',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '100%',
-                  }}
-                >
-                  {itemOne}
-                  
-                </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: '20px',
+                        sm: '32px',
+                        md: '34px',
+                        lg: '30px',
+                        xl: '34px',
+                      },
+                      lineHeight: '1em',
+                      fontFamily: 'Mono',
+                      marginBottom: '15px',
+                      color: '#1B1E1E',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '100%',
+                    }}
+                  >
+                    {itemOne}
+                  </Typography>
                 )}
                 {itemTwo && priceTwo && (
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: '20px',
-                      sm: '32px',
-                      md: '34px',
-                      lg: '30px',
-                      xl: '34px',
-                    },
-                    lineHeight: '1em',
-                    fontFamily: 'Mono',
-                    marginBottom: '15px',
-                    color: '#1B1E1E',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '100%',
-                  }}
-                >
-                  {itemTwo}
-                  
-                </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: '20px',
+                        sm: '32px',
+                        md: '34px',
+                        lg: '30px',
+                        xl: '34px',
+                      },
+                      lineHeight: '1em',
+                      fontFamily: 'Mono',
+                      marginBottom: '15px',
+                      color: '#1B1E1E',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '100%',
+                    }}
+                  >
+                    {itemTwo}
+                  </Typography>
                 )}
                 {itemThree && priceThree && (
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: '20px',
-                      sm: '32px',
-                      md: '34px',
-                      lg: '30px',
-                      xl: '34px',
-                    },
-                    lineHeight: '1em',
-                    fontFamily: 'Mono',
-                    marginBottom: '15px',
-                    color: '#1B1E1E',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '100%',
-                  }}
-                >
-                  {itemThree}
-                  
-                </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: '20px',
+                        sm: '32px',
+                        md: '34px',
+                        lg: '30px',
+                        xl: '34px',
+                      },
+                      lineHeight: '1em',
+                      fontFamily: 'Mono',
+                      marginBottom: '15px',
+                      color: '#1B1E1E',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '100%',
+                    }}
+                  >
+                    {itemThree}
+                  </Typography>
                 )}
                 {itemFour && priceFour && (
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: '20px',
-                      sm: '32px',
-                      md: '34px',
-                      lg: '30px',
-                      xl: '34px',
-                    },
-                    lineHeight: '1em',
-                    fontFamily: 'Mono',
-                    marginBottom: '15px',
-                    color: '#1B1E1E',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '100%',
-                  }}
-                >
-                  {itemFour}
-                  
-                </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: '20px',
+                        sm: '32px',
+                        md: '34px',
+                        lg: '30px',
+                        xl: '34px',
+                      },
+                      lineHeight: '1em',
+                      fontFamily: 'Mono',
+                      marginBottom: '15px',
+                      color: '#1B1E1E',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '100%',
+                    }}
+                  >
+                    {itemFour}
+                  </Typography>
                 )}
                 {itemFive && priceFive && (
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: '20px',
-                      sm: '32px',
-                      md: '34px',
-                      lg: '30px',
-                      xl: '34px',
-                    },
-                    lineHeight: '1em',
-                    fontFamily: 'Mono',
-                    marginBottom: '15px',
-                    color: '#1B1E1E',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '100%',
-                  }}
-                >
-                  {itemFive}
-                  
-                </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: '20px',
+                        sm: '32px',
+                        md: '34px',
+                        lg: '30px',
+                        xl: '34px',
+                      },
+                      lineHeight: '1em',
+                      fontFamily: 'Mono',
+                      marginBottom: '15px',
+                      color: '#1B1E1E',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '100%',
+                    }}
+                  >
+                    {itemFive}
+                  </Typography>
                 )}
                 {itemSix && priceSix && (
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: '20px',
-                      sm: '32px',
-                      md: '34px',
-                      lg: '30px',
-                      xl: '34px',
-                    },
-                    lineHeight: '1em',
-                    fontFamily: 'Mono',
-                    marginBottom: '15px',
-                    color: '#1B1E1E',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '100%',
-                    
-                  }}
-                >
-                  {itemSix}
-                  
-                </Typography>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: '20px',
+                        sm: '32px',
+                        md: '34px',
+                        lg: '30px',
+                        xl: '34px',
+                      },
+                      lineHeight: '1em',
+                      fontFamily: 'Mono',
+                      marginBottom: '15px',
+                      color: '#1B1E1E',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '100%',
+                    }}
+                  >
+                    {itemSix}
+                  </Typography>
                 )}
-                <Box sx={{marginTop: 'auto', marginBottom: '15px'}}>
-                <MyServiceButton />
+                <Box sx={{ marginTop: 'auto', marginBottom: '15px' }}>
+                  <MyServiceButton />
                 </Box>
               </Box>
             </Box>
