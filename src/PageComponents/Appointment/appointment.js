@@ -392,21 +392,21 @@ const Appointment = (props) => {
                     }}
                   ></Box>
                 </Link>
-                <Link href='https://www.facebook.com/profile.php?id=61553106995899'>
+                <Link href='https://linktr.ee/ShearBlissTampa'>
                   <Box
                     sx={{
                       height: {
-                        xl: '60px',
+                        xl: '70px',
                         lg: '60px',
                         md: '60px',
                         sm: '60px',
-                        xs: '40px',
+                        xs: '50px',
                       },
                       width: {
                         xl: '60px',
-                        lg: '60px',
-                        md: '60px',
-                        sm: '60px',
+                        lg: '50px',
+                        md: '50px',
+                        sm: '50px',
                         xs: '40px',
                       },
                       backgroundImage: `url(${Twitter})`,
